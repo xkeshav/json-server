@@ -1,0 +1,59 @@
+{
+  "name": "@xkeshav/template",
+  "version": "0.0.3",
+  "private": false,
+  "displayName": "template",
+  "description": "This is a repository which have all required files to collaborate and open source your repo on GitHub.",
+  "publisher": "@xkeshav",
+  "homepage": "https://github.com/xkeshav/template/blob/main/README.md",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xkeshav/template/issues",
+    "email": "xkeshav@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xkeshav/template.git"
+  },
+  "author": {
+    "name": "Keshav Mohta",
+    "email": "xkeshav@gmail.com"
+  },
+  "contributors": [],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/xkeshav"
+  },
+  "keywords": [
+    "project",
+    "github",
+    "template"
+  ],
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@xkeshav/day": "latest"
+  },
+  "timestamp": {
+    "createdOn": "14 Feb 2024",
+    "updatedOn": ""
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  },
+  "peerDependencies": {},
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

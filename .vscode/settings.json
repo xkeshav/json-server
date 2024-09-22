@@ -1,0 +1,50 @@
+{
+  "git.autofetch": true,
+  "workbench.startupEditor": "none",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.customDictionaries": {
+    "my-words": {
+      "name": "myDictionary",
+      "path": "~/myDictionary.txt",
+      "description": "Words used for my own context.",
+      "addWords": true
+    },
+    "custom": true, // Enable the `custom` dictionary
+    "internal-terms": false // Disable the `internal-terms` dictionary
+  },
+  "editor.accessibilitySupport": "off",
+  "git.openRepositoryInParentFolders": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.linkedEditing": true,
+  "cSpell.userWords": [
+    "nojekyll",
+    "testid"
+  ],
+  "editor.tabSize": 2,
+  "git.enableSmartCommit": true,
+  "files.watcherExclude": {
+    "**/node_modules/*/**": true
+  },
+  "files.autoSave": "afterDelay",
+  "git.branchProtection": [
+    "main",
+    "develop"
+  ],
+  "[CODEOWNERS]": {
+    "editor.formatOnSave": false
+  }
+}
